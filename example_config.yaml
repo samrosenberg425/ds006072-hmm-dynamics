@@ -1,0 +1,7 @@
+dataset:
+  parcellation: Schaefer400_17Networks_TianS2
+  input_dir: /path/to/parcellated_cifti_timeseries/Schaefer400_17Networks_TianS2
+  output_dir: ./output_npz
+adapter:
+  pattern: '*.ptseries.nii'
+  suffix: null
